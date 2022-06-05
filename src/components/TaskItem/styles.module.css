@@ -1,0 +1,54 @@
+.taskItemContainer {
+    background-color: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.taskItemContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: left;
+}
+
+.taskItemContentLeading {
+    display: flex;
+    gap: 1rem;
+}
+
+.checkBox {
+    border: 1px solid var(--blue);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.checkBox:hover {
+    filter: brightness(0.8);
+}
+
+.checkBox.active {
+    border: none;
+    background-color: var(--purple) !important;
+} 
+
+.taskItemContent p {
+    font-size: 0.875rem;
+    color: var(--gray-100);
+}
+
+.taskItemContent .deleteButton {
+    all: unset;
+}
+
+.taskItemContent .deleteButton img:hover {
+    filter: brightness(0.8);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}

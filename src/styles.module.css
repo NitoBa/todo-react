@@ -1,0 +1,62 @@
+.tasksContainer {
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.summaryTasks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summaryTasks .tasksCreated {
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.summaryTasks .tasksCreated span:first-child {
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.summaryTasks .tasksCreated span:last-child, .summaryTasks .tasksCompleted span:last-child {
+    font-weight: bold;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 999px;
+    padding: 0 8px;
+}
+
+.summaryTasks .tasksCompleted {
+    display:flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.summaryTasks .tasksCompleted span:first-child {
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.tasksItemsSection {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tasksItemsSectionEmpty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:244px;
+    border-top: 1px solid var(--gray-400);
+    color: var(--gray-300);
+}
+.tasksItemsSectionEmpty img {
+    margin-bottom: 1rem;
+}
