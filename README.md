@@ -53,4 +53,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Made with 💜 by [Bruno Alves](https://profile-website-murex.vercel.app/) 👋
+Made with 💜 by [Bruno Alves](https://nito-dev.vercel.app/) 👋
